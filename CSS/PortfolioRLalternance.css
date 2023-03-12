@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Exo', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+@media (max-width: 640px) {
+    * {box-sizing : border-box ;
+}
+}
+img {
+height: auto;
+max-width: 100%;
+}
+
+
+.sectionretour {
+  margin: auto 0;
+  width: 100%;
+  height: 30%;
+}
+
+.lienretour {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.lienretour a {
+  padding: 10px 20px;
+  border: 2px solid darkred;
+  border-radius: 10px;
+  text-decoration: none;
+  color: darkred;
+}
+
+.lienretour a:hover {
+  padding: 10px 20px;
+  border: 2px solid #FFDE25 ;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFDE25;
+}
+
+.presentationentreprise {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 75px;
+  }
+  
+  .titreentreprise {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .ensembletexte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .texteentreprise {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+    margin-right: 50px;
+    flex: 1;
+  }
+  
+  .texteequipe {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+    flex: 1;
+  }
+
+  .section h2 {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 35px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* styles pour les colonnes */
+  .column {
+    display: inline-block;
+    width: 25%;
+    margin-left: 6%;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .column:last-child {
+    margin-right: 0;
+  }
+  
+  .column img {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .column h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .column p {
+    margin: 0;
+  }
+  
+  /* styles pour les titres */
+  .main-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+
+.sectionlogiciel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.titrelogiciel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+}
+
+.blocklogiciel {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 90%;
+    top: 15%;
+    left: 5%;
+}
+
+.texteleo {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: 3px inset white;
+    box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+    margin-right: 3%;
+
+}
+
+.imageleo {
+    position: relative;
+    width: 60%;
+    height: 70%;
+    bottom: 10%;
+}
+
+
+.imageinnoshop {
+    position: relative;
+    width: 60%;
+    height: 70%;    
+}
+
+.imagecrisalid {
+    position: relative;
+    width: 62%;
+    height: 70%;
+}
+
+.texteinnoshop {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: 3px inset white;
+    box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+    margin-right: 3%;
+}
+
+.textecrisalid {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: 3px inset white;
+    box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+}
+
+.sectionalternance {
+  height: 100%;
+  width: 100%;
+}
+
+.titrealternance {
+  text-align: center;
+  font-size: 275%;
+}
+
+.soustextealternance {
+  margin-left: 250px;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 500px;
+}
+
+.lialternance {
+  margin-left: 250px;
+  margin-right: auto;
+  width: 1100px;
+}
+
+.container {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.imageABM {
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  text-align: center;
+  margin-top: 250px
+}
+
+.imageexcel {
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  text-align: center;
+  margin-top: 50px
+}
+
+.imageleo {
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  text-align: center;
+  margin-top: 50px
+}
