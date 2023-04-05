@@ -262,176 +262,214 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-}
-
-.positiontexte {  
-    position: relative;
-    top: 14%;
-    text-align: left;
-    left: 28%;
-    width: 70%;  
-}
-
-.positiontexte h2 {
+    }
+    
+    .positiontexte {
+        position: relative;
+        display: grid;
+        top: 8%;
+        text-align: left;
+        margin: 0 auto;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    
+    
+    .positiontexte h2 {
     width: 100%;
     color: #E1EFE6;
     position: relative;
-    font-size: 250%; 
-}
-
-
-.presentation p {
+    font-size: 250%;
+    }
+    
+    .presentation p {
     width: 100%;
     color: #E1EFE6;
     position: relative;
     margin-top: 5%;
     font-size: 120%;
     
-}
-
-.presentation p1 {
-    color: #E1EFE6;
-    position: relative;
+    }
     
-    font-size: 110%;
-}
-
-.presentation p2 {
+    .presentation p1 {
     color: #E1EFE6;
     position: relative;
-    font-size: 110%; 
-}
-
-.lienia {
+    font-size: 110%;
+    }
+    
+    .presentation p2 {
+    color: #E1EFE6;
+    position: relative;
+    font-size: 110%;
+    }
+    
+    .lienia {
     color: #EFCB68;
     text-decoration: none;
-}
-
-.lieniia {
+    }
+    
+    .lieniia {
     background: linear-gradient(#EFCB68 0%,#160C28 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
-}
-
-.arrowimage {
+    }
+    
+    .arrowimage {
     margin: 0 auto;
     position: sticky;
     width: 10%;
     height: 8%;
-    float: left;
-    margin-top: 4%;
-    left: 16%;
-}
-
-
-.bouttoncv  {
+    margin-top: 2%;
+    }
+    
+    .bouttoncv {
     margin: 0 auto;
     color: rgb(0, 0, 0);
     background: #EFCB68;
     height: 8.3vh;
-    width: 24.2vh;
+    width: 70%;
+    max-width: 24.2vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    margin-top: 5%;
     border-radius: 10px;
     text-transform: uppercase;
     transition: .4s linear;
     position: relative;
     border: 1px solid black;
     font-family: 'Exo', sans-serif;
+    margin-top: 5%;
+    }
+    
+    @media screen and (min-width: 768px) {
+    .bouttoncv {
     margin-left: 13%;
-}
+    }
+    }
 
-.presentationbts {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: #000411;
-}
+    .presentationbts {
+        position: relative;
+        width: 100%;
+        background: #000411;
+    }
+    
+    .arrowimage1 {
+        position: absolute;
+        top: 85%;
+        left: 0;
+        transform: rotate(90deg);
+    }
+    
+    .arrowimage2 {
+        position: absolute;
+        color: #160C28;
+        right: 0;
+        top: 90%;
+    }
+    
+    .rectanglejaune {
+        position: absolute;
+        height: 30%;
+        right: 13%;
+        top: 5%;
+        -webkit-animation: spin 1s linear infinite;
+        animation: spin 30s linear infinite;
+    }
+    
+    .rectanglejaune1 {
+        position: absolute;
+        height: 13%;
+        left: 10%;
+        top: 40%;
+        -webkit-animation: spin 1s linear infinite;
+        animation: spin 30s linear infinite;
+    }
+    
+    .rectanglejaune2 {
+        position: absolute;
+        height: 10%;
+        left: 60%;
+        top: 80%;
+        -webkit-animation: spin 1s linear infinite;
+        animation: spin 30s linear infinite;
+        transition: animation 0.5s;
+    }
+    
+    .rectanglejaune2:hover {
+        -webkit-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite;
+    }
+    
+    .consistebts {
+        color: #ffffff;
+        position: relative;
+        font-size: 24px;
+        text-align: left;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+    
+    .lieniia {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    .bloctextebts {
+        text-align: left;
+        margin-left: 25%;
+        margin-right: auto;
+        margin-top: 9%;
+    }
+    
+    .bloctextebts p {
+        color: #ffffff;
+        margin-top: 10px;
+    }
+    
+    @-webkit-keyframes spin {
+        100%{-webkit-transform: rotate(360deg);}
+     
+    }
 
-.arrowimage1 {
-    position: relative;
-    height: 8%;
-    float: left;
-    top: 85vh;
-    rotate: 90deg;
-}
-
-.arrowimage2 {
-    position: relative;
-    color: #160C28;
-    left: 85%;
-    height: 8%;
-    top: 90%;
-}
-
-.rectanglejaune {
-    position: relative;
-    height: 30%;
-    float: right;
-    right: 13%;
-    top: 5%;
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 30s linear infinite;
-}
-
-.rectanglejaune1 {
-    position: relative;
-    height: 13%;
-    float: left;
-    left: 16%;
-    top: 40%;
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 30s linear infinite;
-}
-
-.rectanglejaune2 {
-    position: relative;
-    height: 10%;
-    float: left;
-    left: 60%;
-    top: 80%;
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 30s linear infinite;
-    transition: animation 0.5s;
-}
-
-.rectanglejaune2:hover {
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 1s linear infinite;
-}
-
-@-webkit-keyframes spin {
-    100%{-webkit-transform: rotate(360deg);}
- 
-}
-
-
-.consistebts {
-    color: #ffffff ;
-    position: relative;
-    margin-left: 28%;
-    font-size: 300%;
-    top: 12%;
-}
-
-.bloctextebts {
-    position: relative;
-    top: 15% ;
-    font-size: 115% ;
-    margin-left: 28%;
-}
-
-.bloctextebts p {
-    color: #ffffff ;
-    position: relative;
-    font-size: 130%;
-    margin-top: 1%;   
-}
+    @media only screen and (min-width: 768px) {
+        .presentationbts {
+            height: 100vh;
+        }
+        
+        .arrowimage1 {
+            height: 8%;
+        }
+        
+        .arrowimage2 {
+            height: 8%;
+        }
+        
+        .rectanglejaune {
+            height: 25%;
+        }
+        
+        .rectanglejaune1 {
+            height: 10%;
+        }
+        
+        .rectanglejaune2 {
+            height: 8%;
+        }
+        
+        .consistebts {
+            font-size: 48px;
+            top: 10%;
+        }
+        
+        .bloctextebts {
+            font-size: 24px;
+            top: 30%;
+        }
+    }
+    
 
 .optionsisrslam {
     width: 100%;
@@ -477,7 +515,6 @@ body {
     position: relative;
     width: 30%;
     color: #160C28;
-    top: 5%;
     left: 15%;
     font-size: 265%;
     text-shadow: 1px 1px 1px;
@@ -495,7 +532,7 @@ body {
 .optionaccess {
     position: relative;
     margin-top: 8%;
-    left: 8%;
+    left: 7%;
     width: 45%;
     font-size: 120%;
 }
@@ -503,7 +540,7 @@ body {
 p.metieraccess {
     position: relative;
     margin-top: 3%;
-    left: 13%;
+    left: 7%;
     width: 70%;
     font-size: 120%;
 }
@@ -511,6 +548,15 @@ p.metieraccess {
 .rond {
     height: 2%;
     width: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+    .titreoption {
+        top: 5%;
+    }
+    .metieraccess {
+        width: 5%;
+    }
 }
 
 .blocksisr {
@@ -551,7 +597,6 @@ p.metieraccess {
     width: 50%;
     height: 80%;
     float: right;
-    bottom: 70%;
     color: #E1EFE6;
 }
 
@@ -587,8 +632,8 @@ p.metieraccess {
 .listeslam {
     position: relative;
     float: right;
-    width: 80%;
     top: 40%;
+    width: 90%;
     font-size: 120%;
 }
 
@@ -628,7 +673,6 @@ p.metieraccess {
 .iconescard {
     width: 95%;
     height: 40%;
-    float: left;
     position: relative;
     display: flex;
     left: 2.5%;
@@ -653,7 +697,7 @@ p.metieraccess {
     height: 25%;
     font-size: 265%;
     color: #E1EFE6;
-    top: 12%;
+    top: 10%;
     left: 18%;
 }
 
@@ -725,39 +769,39 @@ p.metieraccess {
     height: 110%;
     width: 100%;
     background: #160C28;
-}
-
-.arrowimagedev {
-    position: relative;
-    height: 6%;
-    top: 19%;
-    float: right;
-    right: 10%;
-}
-
-.arrowimageres {
-    position: relative;
-    height: 8%;
-    top: 60%;
-    left: 15%;
-}
-
-.iconescardres {
+  }
+  
+  .iconescardres {
     width: 95%;
     height: 40%;
     float: left;
-    bottom: 15%;
     position: relative;
     display: flex;
     left: 2.5%;
-}
-
-.flip-cardres {
+    top: 15%;
+  }
+  
+  .flip-cardres {
     background-color: transparent;
     width: 300px;
     height: 200px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
+    perspective: 1000px;
+    margin-right: 20px; /* espace entre les cards */
+  }
+  
+  /* Style pour les écrans étroits (téléphones) */
+  @media only screen and (max-width: 767px) {
+    .iconescardres {
+      display: flex;
+      flex-wrap: wrap; /* permet de sauter à la ligne pour les cards suivantes */
+      justify-content: center; /* centre les cards dans la page */
+    }
+  
+    .flip-cardres {
+      width: 45%; /* adapte la taille des cards à l'écran */
+      margin: 10px; /* espace entre les cards */
+    }
+  }
 
 .flip-card-innerres {
     position: relative;
@@ -792,14 +836,20 @@ p.metieraccess {
     transform: rotateY(180deg);
 }
 
+.blockformation {
+    float: left;
+    display: flex;
+    width: 100%;
+}
 
 .pageentreprise {
     background-color: #f8f9fa;
-    border: 2px solid #ced4da;
+    border: 3px solid #160C28;
     border-radius: 10px;
     padding: 20px;
     margin: 60px;
     box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    width: 69%;
   }
 
 .pageentreprise:hover {
@@ -827,14 +877,65 @@ p.metieraccess {
     margin-right: auto;
     width: 200px;
     justify-content: center;
-    text-align: center;
     margin-top: 50px;
+    text-align: center;
   }
   
   .lienalternance:hover {
     background-color: #EFCB68;
   }
+
+  .pageecole {
+    background-color: #f8f9fa;
+    border: 3px solid #160C28;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    width: 69%;
+  }
+
+.pageecole:hover {
+    border: 2px solid #EFCB68;
+}
   
+  .titreecole {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 75px;
+    color: #160C28;
+    text-align: center;
+  }
+  
+  .lienecole {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #160C28;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .lienecole:hover {
+    background-color: #EFCB68;
+  }
+
+    @media (max-width: 767px) {
+        .blockformation {
+        flex-direction: column;
+        margin-top: 20px;
+  
+        }
+    }
+
   .blockimages {
     display: flex;
     align-items: center; /* aligne les images et le texte */
@@ -906,11 +1007,11 @@ p.metieraccess {
     
 .blockveilletrois {
     position: relative;
+    width: 370px;
     text-align: center;
     padding: 10px 20px;
     margin-right: auto;
     margin-left: auto;
-    width: 600px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
@@ -940,6 +1041,9 @@ p.metieraccess {
   
   .theme {
     width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -977,7 +1081,7 @@ p.metieraccess {
     padding: 20px;
     border: 2px solid #EFCB68;
     border-radius: 15px;
-    overflow: hidden;
+    margin-left: 5px;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -987,7 +1091,6 @@ p.metieraccess {
   }
   
   .theme::before {
-    content: '';
     position: absolute;
     top: -100%;
     left: 0;
@@ -996,7 +1099,7 @@ p.metieraccess {
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 100%);
     transform: skewY(-15deg);
     transition: top 0.3s ease-in-out;
-    z-index: 1;
+    z-index: 0;
   }
   
   .theme:hover::before {
@@ -1009,7 +1112,6 @@ p.metieraccess {
   }
   
   .theme::before {
-    content: '';
     position: absolute;
     top: -100%;
     left: 0;
@@ -1025,7 +1127,16 @@ p.metieraccess {
     top: 100%;
   }
 
-
+  @media (max-width: 767px) {
+    .themes {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .theme {
+        width: 100%;
+        height: auto;
+    }
+}
 
 
 
@@ -1167,4 +1278,3 @@ footer textarea {
    .btn:active {
     transform: scale(0.9);
    }
-
