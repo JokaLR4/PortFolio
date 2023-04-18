@@ -93,3 +93,9 @@ body {
     width: var(--size);
     height: var(--size);
    }
+
+   .titresectiondeux {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 200px;
+}
