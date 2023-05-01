@@ -556,6 +556,7 @@ body {
             font-size: 285%;
             margin-left: 55px;
             margin-top: 95px;
+            top: 5%;
         }
         .metieraccess {
             width: 70%;
@@ -572,12 +573,17 @@ body {
         }
         p.metieraccess {
             left: 11%;
+            position: relative;
+            font-size: 125%;
+            text-align: left;
+            right: 2%;
+            width: 45%;
         }
     }
 
 @media only screen and (min-width: 768px) {
     .titreoption {
-        top: 5%;
+        top: 1%;
     }
     .metieraccess {
         width: 5%;
