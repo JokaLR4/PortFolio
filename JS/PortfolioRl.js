@@ -2,16 +2,7 @@ function showContent() {
   document.querySelector('.loadercontainer').classList.add('hidden')
 }
 
-setTimeout(showContent, 2000);
-
-const htmlicone = document.getElementById("htmlicone");
-const flipCardInner = document.querySelector(".flip-card-inner");
-
-if (htmlicone && flipCardInner) {
-  htmlicone.addEventListener("click", function () {
-    flipCardInner.classList.toggle("flipped");
-  });
-}
+setTimeout(showContent, 1000);
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
   event.preventDefault();
