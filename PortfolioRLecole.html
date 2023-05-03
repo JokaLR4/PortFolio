@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="all" type="text/css" href="CSS/PortfolioRLecole.css">
+    <script src="JS/PortfolioRLecole.js" defer></script>
     <title>Projets Ecole</title>
 </head>
 <body>
-    <h1 class="titresection"> Projets 1</h1>
+    <h1 class="titresection"> Architecture Virtuel BTS SIO </h1>
     <div class="sectionpresentation"> 
         <div class="card">
             <div class="card-img"> <img src="Images\iconeserveursave.svg" class="imgcenter"> </div>
@@ -53,7 +54,7 @@
         <div class="card">
             <div class="card-img"> <img src="Images\iconeserveursave.svg" class="imgcenter"></div>
                 <div class="card-info">
-                    <p class="text-body">OPNSENSE  <br> Config Pare-Feu </p>
+                    <p class="text-body">PFSENSE  <br> Config Pare-Feu </p>
                     <p class="text-title">Domaine : ABM.net</p>
                     <p style="text-align: center;"> Création de Règle de pare-feu </p>
                 </div>
@@ -63,14 +64,51 @@
                     <div class="card-info">
                         <p class="text-body">PRTG  <br> SuperVision </p>
                         <p class="text-title">Domaine : ABM.net</p>
-                        <p style="text-align: center;"> Création de Règle de pare-feu </p>
+                        <p style="text-align: center;"> Supervision des équipements et Serveurs (Routeur,Switch,etc..)  </p>
                     </div>
-                </div>
+                </div>  
+                <div class="card">
+                    <div class="card-img"> <img src="Images\iconeserveursave.svg" class="imgcenter"></div>
+                        <div class="card-info">
+                            <p class="text-body">Serveur Windows 2016  <br> Serveur_WEB </p>
+                            <p class="text-title">Domaine : ABM.net</p>
+                            <p style="text-align: center;"> IIS (Internet Information Server) stocker et délivrer des pages web qui sont généralement rendues en HTML </p>
+                        </div>
+                    </div>  
     </div>
-    <h1 class="titresectiondeux"> Projets 2</h1>
-    <p> Portfolio </p>
-        
-
+    <div class="container">
+        <div class="block">
+          <p> <strong> Documentation et tutoriel du Projet : <br> Serveurs ADDS/DNS/DHCP avec une Redondance  </strong> </p>
+          <p> - Installation </p>
+          <p> - Ajout Fonctionnalité </p>
+          <p> - Windows 2016</p>
+          <p> - Unité d'Organisations </p>
+          <button id="btn-ouvrir">Documentation et tutoriel AD_DS_DHCP et redondance</button>
+          <!-- Boîte modale pour afficher le PDF -->
+                  <div id="boite-modale">
+                      <div id="contenu">
+                          <button id="btn-fermer">FERMER</button>
+                          <iframe id="pdf-iframe" src="Images/ProjetGLPI.pdf" frameborder="0" width="100%" height="100%"></iframe>
+                      </div>
+                  </div>
+        </div>
+        <div class="block">
+          <p> <strong> Documentation et tutoriel du Projet : <br> GLPI </strong> </p>
+          <p> - Installation </p>
+          <p> - Base de données MariaDB </p>
+          <p> - PHPmyadmin</p>
+          <p> - Ticket </p>
+          <!-- Bouton pour ouvrir la boîte modale -->
+          <button id="btn-ouvrir">Documentation et tutoriel GLPI</button>
+          <!-- Boîte modale pour afficher le PDF -->
+                  <div id="boite-modale">
+                      <div id="contenu">
+                          <button id="btn-fermer">FERMER</button>
+                          <iframe id="pdf-iframe" src="Images/ProjetGLPI.pdf" frameborder="0" width="100%" height="100%"></iframe>
+                      </div>
+                  </div>
+        </div>
+      </div>
     
 </body>
 </html>
