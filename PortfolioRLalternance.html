@@ -6,6 +6,7 @@
         <script src="https://kit.fontawesome.com/df59dbdfea.js" crossorigin="anonymous"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="JS/PortfolioRLecole.js"></script>
 
         
     </head>
@@ -105,37 +106,48 @@
                   </div>
                 </div>
               </div>
-              <p class="soustextealternance"> Preparation de la Caisse enregistreuse : </p>
               <div class="lialternance">
-                <li>Monter l'afficheur client suivant la cahier des charges  </li>
-                <li>Mise à jour Windows update et driver</li>
-                <li>Renommer la Caisse enregistreuse en " Caisse-01 ou nom du client" </li>
-                <li>Aller dans le NAS de l'entreprise dans un dossier nommé "prépa-caisse récupérer les logiciels"</li>
-                <li>Installation des packages logiciels Google, Teamviewer, SumatraPDF etc..</li>
-                <li>Crée un dossier dans le lecteur C  pour regrouper les logiciels</li>
-                <li>Crée un sous-dossier "Télémaintenance + l'ID" de Teamviewer et le faire pointer dans la barre d'outils </li>
-                <li>Changer le Mot de passe pour en mettre un sécurisé avec minimum une majuscule, un caractère spécial, un chiffre. </li>
-                <li>Règle de pare-feu : Récupérer sur le NAS, le fichier parefeu.wfw faire l'import dans le pare-feu avancé </li>
-                <li>Installer le Logiciel selon le cahier des charges : LEO / INNOSHOP / CRISALID </li>
-                <li>Installation de l'imprimante en Port COM selon la possibilité ou RJ45(ethernet 8 fils) </li>
-                <li>Installation du tiroir caisse relié a l'imprimante en RJ-11 (4fils) </li>
-                <li>L'Antenne Wifi se paramètre ensuite (Unifi) changer le DNS wifi et le mot de passe sécurisé</li>
-                <li>Le PAD se configure en ajoutant l'adresse IP dans le Logiciel de léo (Léopocket) une synchronisation entre la caisse et le PAD s'éffectue</li>
+                <p class="texteprepa">
+                Preparation de la Caisse enregistreuse : <br>
+                Monter l'afficheur client suivant la cahier des charges <br>
+                Mise à jour Windows update et driver <br>
+                Renommer la Caisse enregistreuse en " Caisse-01 ou nom du client"  <br>
+                Aller dans le NAS de l'entreprise dans un dossier nommé "prépa-caisse récupérer les logiciels" <br>
+                Installation des packages logiciels Google, Teamviewer, SumatraPDF etc.. <br>
+                Crée un dossier dans le lecteur C  pour regrouper les logiciels <br>
+                Crée un sous-dossier "Télémaintenance + l'ID" de Teamviewer et le faire pointer dans la barre d'outils  <br>
+                Changer le Mot de passe pour en mettre un sécurisé avec minimum une majuscule, un caractère spécial, un chiffre.  <br>
+                Règle de pare-feu : Récupérer sur le NAS, le fichier parefeu.wfw faire l'import dans le pare-feu avancé  <br>
+                Installer le Logiciel selon le cahier des charges : LEO / INNOSHOP / CRISALID  <br>
+                Installation de l'imprimante en Port COM selon la possibilité ou RJ45(ethernet 8 fils)  <br>
+                Installation du tiroir caisse relié a l'imprimante en RJ-11 (4fils)  <br>
+                L'Antenne Wifi se paramètre ensuite (Unifi) changer le DNS wifi et le mot de passe sécurisé <br>
+                Le PAD se configure en ajoutant l'adresse IP dans le Logiciel de léo (Léopocket) une synchronisation entre la caisse et le PAD s'éffectue </p>
               </div>
             </div>
-            <div class="imageABM">
-              <p> Cahier des charges</p> <img class="image_1" src="Images/cahierdescharges.PNG" style="height: 45%;width: 40%;"> </img>
-              <img class="image_2" src="Images/cahierdescharges2.PNG" style="height: 45%;width: 40%;"> </img>
-            </div>
-            <div class="imageexcel">
-              <p> Intégration Excel Leo/ Devis client</p><img class="image_3" src="Images/progleo.PNG" style="height: 45%;width: 40%;">
-              <img class="image_3" src="Images/devis.PNG" style="height: 45%;width: 40%;">
-            </div>
-            <div class="imageleo">
-              <p> Clavier Leo / Paramètre Leo</p><img class="image_3" src="Images/clavierleo.PNG" style="height: 45%;width: 40%;">
-              <img class="image_3" src="Images/parametreclavier.PNG" style="height: 45%;width: 40%;">
-            </div>
+          <div class="sectionslider">
+            <div class="slider">
+              <div class="slide"> <img src="Images/cahierdescharges.PNG"> </img>
+                  <h4>Cahier des charges 1</h4>
+              </div>
+              <div class="slide"> <img src="Images/cahierdescharges2.PNG"> </img>
+                  <h4>Cahier des charges 2</h4>
+              </div>
+              <div class="slide"> <img src="Images/devis.PNG"> </img>
+                  <h4>Devis client</h4>
+              </div>
+                      <div class="slide"> <img src="Images/progleo.PNG"> </img>
+                  <h4>Import Excel Leo</h4>
+              </div>
+              <div class="slide"> <img src="Images/clavierleo.PNG"> </img>
+                  <h4>Clavier Leo</h4>
+              </div>
               
+              <button class="prev">&#10094;</button>
+              <button class="next">&#10095;</button>
+          </div>
+          <script src="PortfolioRLecole.js"></script>
+          </div>
 
 
 

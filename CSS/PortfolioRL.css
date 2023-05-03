@@ -279,15 +279,17 @@ body {
     width: 100%;
     color: #E1EFE6;
     position: relative;
-    font-size: 250%;
+    font-size: 285%;
+    margin-left: 10px;
     }
     
     .presentation p {
-    width: 100%;
     color: #E1EFE6;
     position: relative;
     margin-top: 5%;
-    font-size: 120%;
+    font-size: 125%;
+    margin-left: 10px;
+    margin-right: 10px;
     
     }
     
@@ -350,24 +352,29 @@ body {
     }
     }
 
+    @media only screen and (max-width: 767px) {
+        .presentationbts {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    
+        .consistebts {
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    
+        .bloctextebts {
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    
     .presentationbts {
         position: relative;
         width: 100%;
         background: #000411;
-    }
-    
-    .arrowimage1 {
-        position: absolute;
-        top: 85%;
-        left: 0;
-        transform: rotate(90deg);
-    }
-    
-    .arrowimage2 {
-        position: absolute;
-        color: #160C28;
-        right: 0;
-        top: 90%;
     }
     
     .rectanglejaune {
@@ -381,9 +388,9 @@ body {
     
     .rectanglejaune1 {
         position: absolute;
-        height: 13%;
+        height: 10%;
         left: 10%;
-        top: 40%;
+        top: 43%;
         -webkit-animation: spin 1s linear infinite;
         animation: spin 30s linear infinite;
     }
@@ -391,8 +398,8 @@ body {
     .rectanglejaune2 {
         position: absolute;
         height: 10%;
-        left: 60%;
-        top: 80%;
+        left: 75%;
+        top: 75%;
         -webkit-animation: spin 1s linear infinite;
         animation: spin 30s linear infinite;
         transition: animation 0.5s;
@@ -431,32 +438,23 @@ body {
     
     @-webkit-keyframes spin {
         100%{-webkit-transform: rotate(360deg);}
-     
     }
-
+    
     @media only screen and (min-width: 768px) {
         .presentationbts {
             height: 100vh;
         }
         
-        .arrowimage1 {
-            height: 8%;
-        }
-        
-        .arrowimage2 {
-            height: 8%;
-        }
-        
         .rectanglejaune {
-            height: 25%;
+            height: 30%;
         }
         
         .rectanglejaune1 {
-            height: 10%;
+            height: 15%;
         }
         
         .rectanglejaune2 {
-            height: 8%;
+            height: 10%;
         }
         
         .consistebts {
@@ -470,89 +468,122 @@ body {
         }
     }
     
-
-.optionsisrslam {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background: #EFCB68;
-}
-
-.texteoption h1 {
-    position: relative;
-    width: 50%;
-    color: #1b280c;
-    top: 15vh;
-    margin-left: 27vh;
-    font-size: 4.7vh;
-}
-
-.texteoption h5 {
-    position: relative;
-    margin-left: 14%;
-    margin-top: 3%;
-    font-size: 80%;
-    width: 30%;
-    font-weight: bold ;
+    @media only screen and (max-width: 767px) {
+        .presentationbts {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
     
-}
+    .consistebts {
+            text-align : center;
+            margin-left: 0;
+            margin-right: 0;font-size: 250%;
+            }
 
-.optionsisr {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #EFCB68;
-}
+    .bloctextebts {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        font-size: 125%;
+        }
+    }
 
-.imagesisr {
-    height: 96%;
-    width: 60%;
-    position: relative;
-    float: right;
-}
 
-.titreoption {
-    position: relative;
-    width: 30%;
-    color: #160C28;
-    left: 15%;
-    font-size: 265%;
-    text-shadow: 1px 1px 1px;
+    .optionsisr {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #EFCB68;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
-}
+    .imagesisr {
+        height: 96%;
+        width: 60%;
+        position: relative;
+        float: right;
+        display: block;
+        margin-bottom: 25px;
+    }
 
-.texteoptionsisr {
-    position: relative;
-    top: 30% ;
-    left: 25%;
-    color: #160C28;
-    font-size: 135%;
-}
+    .titreoption {
+        position: relative;
+        color: #160C28;
+        font-size: 285%;
+        text-shadow: 1px 1px 1px;
+        text-align: center;
+        margin-top: 95px;
+    }
 
-.optionaccess {
-    position: relative;
-    margin-top: 8%;
-    left: 7%;
-    width: 45%;
-    font-size: 120%;
-}
+    .texteoption h5 {
+        position: relative;
+        text-align: center;
+        font-size: 80%;
+        font-weight: bold;
+        margin-bottom: 75px;
+    }
 
-p.metieraccess {
-    position: relative;
-    margin-top: 3%;
-    left: 7%;
-    width: 70%;
-    font-size: 120%;
-}
+    .optionaccess {
+        position: relative;
+        font-size: 125%;
+        text-align: left;
+        margin-bottom: 75px;
+        margin-left: 7%;
+    }
 
-.rond {
-    height: 2%;
-    width: 2%;
+    p.metieraccess {
+        position: relative;
+        font-size: 125%;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    .rond {
+        height: 2%;
+        width: 2%;
+    }
+
+@media only screen and (max-width: 767px) {
+        .imagesisr {
+            display: none;
+        }
 }
 
 @media only screen and (min-width: 768px) {
+        .titreoption {
+            font-size: 285%;
+            margin-left: 55px;
+            margin-top: 95px;
+            top: 5%;
+        }
+        .metieraccess {
+            width: 70%;
+            text-align: left;
+        }
+        .texteoption h5 {
+            width: 30%;
+            margin-left: 13%;
+            text-align: left;
+        }
+        .optionaccess {
+            width: 45%;
+            left: 6%;
+        }
+        p.metieraccess {
+            left: 11%;
+            position: relative;
+            font-size: 125%;
+            text-align: left;
+            right: 2%;
+            width: 45%;
+        }
+    }
+
+@media only screen and (min-width: 768px) {
     .titreoption {
-        top: 5%;
+        top: 1%;
     }
     .metieraccess {
         width: 5%;
@@ -576,6 +607,8 @@ p.metieraccess {
     height: 100%;
     width: 100%;
     background: #160C28;
+    display: flex;
+    flex-direction: row;
 }
 
 .imageslam {
@@ -583,64 +616,78 @@ p.metieraccess {
     height: 80%;
     width: 50%;
     top: 12%;
-}
-
-.arrowgrey {
-    position: relative;
-    height: 8%;
-    top : 18% ;
+    display: block;
 }
 
 .titreslam {
     position: relative;
     background: #160C28;
-    width: 50%;
+    width: 80%;
     height: 80%;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #E1EFE6;
 }
 
 .titreslamoption {
-    position: relative;
-    height: 6%;
-    right: 35%;
-    float: right;
-    font-size: 265%;
-    top: 13%;
-    width: 45%;
+    font-size: 285%;
+    margin-top: 145px;
     text-shadow: 1px 1px 1px;
 }
 
 .soustitreslamoption {
-    position: relative;
-    height: 5%;
     font-size: 80%;
-    top: 23%;
-    width: 45%;
-    left: 22%;
-    
+    margin-bottom: 95px;
 }
 
 .metierslam {
-    position: relative;
-    float: right;
-    width: 90%;
-    top: 35%;
-    font-size: 120%;
+    font-size: 125%;
+    text-align: left;
+    margin-bottom: 95px;
+    margin-left: 10px;
 }
 
 .listeslam {
     position: relative;
-    float: right;
-    top: 40%;
-    width: 90%;
-    font-size: 120%;
+    font-size: 125%;
+    text-align: left;
+    right: 2%;
+    width: 45%;
+}
+
+@media screen and (max-width: 767px) {
+    .imageslam {
+        display: none;
+    }
+
+    .metierslam  { 
+        font-size: 125%;
+        text-align: left;
+        margin-bottom: 95px;
+        margin-left: 20px;
+    }
+
+    .titreslam {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .listeslam {
+        position: relative;
+        font-size: 125%;
+        text-align: left;
+        width: 95%;
+        margin-left: 5%;
+    }
 }
 
 .competencesdev {
     height: 110%;
     width: 100%;
     background: #160C28;
+    overflow: hidden; /* Ajoutez cette ligne pour empêcher les cartes de déborder */
 }
 
 .iconecompetencessisr {
@@ -663,10 +710,9 @@ p.metieraccess {
 
 .competencesicones {
     position: relative;
-    width: 30%;
-    font-size: 265%;
+    text-align: center;
+    font-size: 285%;
     color: #E1EFE6;
-    left: 18%;
     top:5% ;
 }
 
@@ -677,45 +723,51 @@ p.metieraccess {
     display: flex;
     left: 2.5%;
     top: 16%;
+    box-sizing: border-box; /* Ajoutez cette ligne pour inclure la marge et le padding dans la largeur totale */
 }
 
 .allcard {
-    width: 16.5%;
-
-}
-
-.terencepd {
-  background: -webkit-linear-gradient( #EE5F25 0.5em , #2F92F9 0.7em , #8993BE 0.2em  , #0ACF83  , #F3D42C 1em ) ;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 100;
+    width: auto;
+    height: auto;
 }
 
 .competencesiconesres {
     position: relative;
-    width: 55%;
-    height: 25%;
-    font-size: 265%;
+    font-size: 285%;
     color: #E1EFE6;
-    top: 10%;
-    left: 18%;
+    top: 15%;
+    text-align: center;
+
 }
 
-.terencepdres {
-  background: -webkit-linear-gradient( #EE5F25 0.5em , #2F92F9 0.7em , #8993BE 0.2em  , #0ACF83  , #F3D42C 1em ) ;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 100;
+@media only screen and (max-width: 767px) {
+    .competencesiconesres {
+        position: relative;
+        text-align: center;
+        font-size: 285%;
+        top: 5%;
+    }  
 }
 
-.arrowimagescomp {
-    position: relative;
-    top: 45vh;
-    height: 18%;
-    rotate: 90deg;
-    float: left;
-    left: 5%;
+@media only screen and (max-width: 767px) {
+    .iconescard {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Changez la valeur en '1fr 1fr' pour qu'elle s'adapte à la largeur de l'écran */
+        top: 5%;
+        gap: 10px; /* Ajoutez un espacement entre les cartes */
+    }
 
+    .flip-card {
+        width: 45%; /* Changez la largeur à 100% pour s'adapter à la largeur de l'écran */
+        margin: 10px ; /* Ajustez la marge pour avoir de l'espace entre les cartes */
+    }
+
+    /* Ajoutez ce code pour ajuster la taille des images dans les cartes */
+    .flip-card .flip-card-front img, .flip-card .flip-card-back img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
 }
 
 
@@ -724,6 +776,7 @@ p.metieraccess {
     width: 300px;
     height: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-right: 20px; /* espace entre les cards */
 }
   
   /* This container is needed to position the front and back side */
@@ -774,11 +827,11 @@ p.metieraccess {
   .iconescardres {
     width: 95%;
     height: 40%;
-    float: left;
     position: relative;
     display: flex;
     left: 2.5%;
-    top: 15%;
+    top: 30%;
+    box-sizing: border-box;
   }
   
   .flip-cardres {
@@ -792,15 +845,18 @@ p.metieraccess {
   /* Style pour les écrans étroits (téléphones) */
   @media only screen and (max-width: 767px) {
     .iconescardres {
-      display: flex;
-      flex-wrap: wrap; /* permet de sauter à la ligne pour les cards suivantes */
-      justify-content: center; /* centre les cards dans la page */
+      display: grid;
+      grid-template-columns: 230px 230px;
+      top: 5%;
+      margin: 10px;
     }
   
     .flip-cardres {
       width: 45%; /* adapte la taille des cards à l'écran */
       margin: 10px; /* espace entre les cards */
     }
+
+    
   }
 
 .flip-card-innerres {
