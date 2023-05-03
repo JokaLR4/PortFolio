@@ -4,9 +4,11 @@ body {
 
 
 .titresection {
+    position: relative;
+    margin-top: 150px;
     text-align: center;
     font-size: 45px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .sectionpresentation {
@@ -122,7 +124,7 @@ body {
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 5%;
   }
   
   .block {
@@ -171,10 +173,10 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Exo', sans-serif;
-    width: 80%;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     
   }
   
