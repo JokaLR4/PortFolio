@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
 body {
     margin: auto 0;
+    font-family: 'Exo', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 
 .titresection {
     position: relative;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     font-size: 45px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .sectionpresentation {
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 60px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -127,7 +132,7 @@ body {
     margin-top: 5%;
   }
   
-  .block {
+  #block, #block2 {
     flex: 1;
     background-color: #f0f0f0;
     border-radius: 15px;
@@ -139,7 +144,7 @@ body {
   }
   
   /* Styles pour la boîte modale */
-#boite-modale {
+#boite-modale, #boite-modale2 {
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -151,7 +156,7 @@ body {
   }
   
   
-  #contenu {
+  #contenu, #contenu2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -165,7 +170,7 @@ body {
   }
   
   /* Styles pour le bouton */
-  #btn-ouvrir {
+  #btn-ouvrir, #btn-ouvrir2 {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -180,12 +185,12 @@ body {
     
   }
   
-  #btn-ouvrir:hover {
+  #btn-ouvrir:hover, #btn-ouvrir2:hover {
     background-color: #0069d9;
   }
   
   /* Styles pour le bouton Fermer */
-#btn-fermer {
+#btn-fermer, #btn-fermer2 {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -198,6 +203,6 @@ body {
     font-family: 'Exo', sans-serif;
   }
   
-  #btn-fermer:hover {
+  #btn-fermer:hover, #btn-fermer2:hover {
     background-color: #0069d9;
   }

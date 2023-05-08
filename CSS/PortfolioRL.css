@@ -129,6 +129,12 @@ body {
     font-family: 'Exo', sans-serif;
 }
 
+@media screen and (min-width: 768px) {
+    .context h1 {
+        font-size: 100px;
+        color: #E1EFE6;
+    }
+}
 
 .area{
     background: #160C28;  
@@ -278,7 +284,7 @@ body {
     width: 100%;
     color: #E1EFE6;
     position: relative;
-    font-size: 50px;
+    font-size: 45px;
     margin-left: 10px;
     }
     
@@ -286,7 +292,7 @@ body {
     color: #E1EFE6;
     position: relative;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -373,6 +379,7 @@ body {
     .presentationbts {
         position: relative;
         width: 100%;
+        height: 100%;
         background: #000411;
     }
     
@@ -422,11 +429,12 @@ body {
     }
     
     .bloctextebts {
-        position: absolute;
+        position: relative;
+        display: grid;
+        top: 8%;
         text-align: left;
-        margin-left: 25%;
-        margin-right: auto;
-        top: 15%;
+        margin: 0 auto;
+        justify-content: center;
     }
     
     .bloctextebts p {
@@ -456,13 +464,13 @@ body {
         }
         
         .consistebts {
-            font-size: 55px;
+            font-size: 48px;
             margin-bottom: 10%;
             top: 10%;
         }
         
         .bloctextebts {
-            font-size: 26px;
+            font-size: 25px;
         }
     }
     
@@ -562,12 +570,12 @@ body {
         }
         .texteoption h5 {
             width: 30%;
-            margin-left: 14%;
+            margin-left: 12.5%;
             text-align: left;
         }
         .optionaccess {
             width: 45%;
-            left: 6%;
+            left: 4.5%;
         }
         p.metieraccess {
             left: 11%;
@@ -685,6 +693,7 @@ body {
     height: 110%;
     width: 100%;
     background: #160C28;
+    margin-bottom: 50px;
     overflow: hidden; /* Ajoutez cette ligne pour empêcher les cartes de déborder */
 }
 
@@ -720,7 +729,7 @@ body {
     position: relative;
     display: flex;
     left: 2.5%;
-    top: 16%;
+    top: 22%;
     box-sizing: border-box; /* Ajoutez cette ligne pour inclure la marge et le padding dans la largeur totale */
 }
 
@@ -892,22 +901,24 @@ body {
 
 .blockformation {
     float: left;
-    display: flex;
     width: 100%;
+    margin-top: 10%;
 }
 
 .pageentreprise {
-    background-color: #f8f9fa;
-    border: 3px solid #160C28;
-    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 20px;
-    margin: 60px;
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
-    width: 69%;
-  }
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+  
 
 .pageentreprise:hover {
-    border: 2px solid #EFCB68;
+    border: 3px solid #EFCB68;
 }
   
   .titreentreprise {
@@ -923,7 +934,7 @@ body {
     display: flex;
     padding: 10px 20px;
     background-color: #160C28;
-    color: #fff;
+    color: #E1EFE6;
     text-decoration: none;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -940,17 +951,18 @@ body {
   }
 
   .pageecole {
-    background-color: #f8f9fa;
-    border: 3px solid #160C28;
-    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    margin: 60px;
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
-    width: 69%;
-  }
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+  
 
 .pageecole:hover {
-    border: 2px solid #EFCB68;
+    border: 3px solid #EFCB68;
 }
   
   .titreecole {
@@ -966,7 +978,7 @@ body {
     display: flex;
     padding: 10px 20px;
     background-color: #160C28;
-    color: #fff;
+    color: #E1EFE6;
     text-decoration: none;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -1020,7 +1032,7 @@ body {
 .sectionveille {
     background-color: white;
     color: #333;
-    padding: 100px 50px;
+    padding:  300px 50px 100px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
