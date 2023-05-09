@@ -28,10 +28,11 @@ body {
 }
 
 .imgcenter {
-    height: 100%;
+    height: 80%;
     width: 80%;
     position: relative;
     left: 10px;
+    top: 10%;
 }
 
 .card {
@@ -206,3 +207,7 @@ body {
   #btn-fermer:hover, #btn-fermer2:hover {
     background-color: #0069d9;
   }
+
+    .rond {
+      color: #0069d9;
+    }
