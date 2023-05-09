@@ -693,7 +693,7 @@ body {
     height: 110%;
     width: 100%;
     background: #160C28;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     overflow: hidden; /* Ajoutez cette ligne pour empêcher les cartes de déborder */
 }
 
@@ -899,108 +899,92 @@ body {
     transform: rotateY(180deg);
 }
 
+/* Style pour la classe blockformation */
 .blockformation {
-    float: left;
-    width: 100%;
-    margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  gap: 25px;
 }
 
+/* Style pour la classe pageentreprise */
 .pageentreprise {
-    width: 50%;
-    margin-bottom: 5%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
-    background-color: #FFF;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom left, #160C28, #fff);
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
-  
 
+/* Style pour la classe pageentreprise au survol */
 .pageentreprise:hover {
-    border: 3px solid #EFCB68;
+  transform: translateY(-10px);
 }
-  
-  .titreentreprise {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 75px;
+
+/* Style pour la classe pageecole */
+.pageecole {
+background: linear-gradient(to bottom right, #EFCB68, #fff);
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.competencesecole {
     color: #160C28;
-    text-align: center;
-  }
-  
-  .lienalternance {
-    display: flex;
-    padding: 10px 20px;
-    background-color: #160C28;
-    color: #E1EFE6;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    justify-content: center;
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .lienalternance:hover {
-    background-color: #EFCB68;
-  }
-
-  .pageecole {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    background-color: #FFF;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-  
 
+
+/* Style pour la classe pageecole au survol */
 .pageecole:hover {
-    border: 3px solid #EFCB68;
+  transform: translateY(-20px);
 }
-  
-  .titreecole {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 75px;
-    color: #160C28;
-    text-align: center;
-  }
-  
-  .lienecole {
-    display: flex;
-    padding: 10px 20px;
-    background-color: #160C28;
-    color: #E1EFE6;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    justify-content: center;
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .lienecole:hover {
-    background-color: #EFCB68;
-  }
 
-    @media (max-width: 767px) {
-        .blockformation {
-        flex-direction: column;
-        margin-top: 20px;
-  
-        }
-    }
+/* Style pour le titre entreprise */
+.titreentreprise {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #160C28;
+}
+
+/* Style pour le titre école */
+.titreecole {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #444;
+}
+
+/* Style pour les liens */
+.lienalternance, .lienecole {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #EFCB68;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+/* Style pour les liens au survol */
+.lienalternance:hover, .lienecole:hover {
+  background-color: #160C28;
+  opacity: 0.8;
+}
 
   .blockimages {
     display: flex;
