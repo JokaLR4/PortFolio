@@ -303,6 +303,13 @@ body {
         }
 
     }
+
+    @media only screen and (max-width: 767px) {
+    .presentation p {
+        font-size: 20px;
+    }
+    }
+
     
     .presentation p1 {
     color: #E1EFE6;
@@ -493,11 +500,11 @@ body {
             }
 
     .bloctextebts {
-        text-align: center;
+        text-align: left;
         margin-left: 10px;
         margin-right: 10px;
         position: relative;
-        font-size: 125%;
+        font-size: 21px;
         }
     }
 
