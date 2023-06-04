@@ -295,7 +295,13 @@ body {
     font-size: 22px;
     margin-left: 10px;
     margin-right: 10px;
-    
+    }
+
+    @media screen and (max-width: 768px) {
+        .presentation p {
+            font-size: 18px;
+        }
+
     }
     
     .presentation p1 {
@@ -759,7 +765,7 @@ body {
 @media only screen and (max-width: 767px) {
     .iconescard {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Changez la valeur en '1fr 1fr' pour qu'elle s'adapte à la largeur de l'écran */
+        grid-template-columns: 230px 230px; /* Changez la valeur en '1fr 1fr' pour qu'elle s'adapte à la largeur de l'écran */
         top: 5%;
         gap: 10px; /* Ajoutez un espacement entre les cartes */
     }
