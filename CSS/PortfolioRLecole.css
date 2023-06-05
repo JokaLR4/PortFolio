@@ -123,12 +123,13 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
     box-sizing: border-box;
     gap: 20px;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     margin-top: 5%;
   }
@@ -145,7 +146,7 @@ body {
   }
   
   /* Styles pour la boîte modale */
-#boite-modale, #boite-modale2 {
+#boite-modale, #boite-modale2, #boite-modale3, #boite-modale4, #boite-modale5, #boite-modale6 {
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -157,7 +158,7 @@ body {
   }
   
   
-  #contenu, #contenu2 {
+  #contenu, #contenu2, #contenu3, #contenu4, #contenu5, #contenu6  {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -171,7 +172,7 @@ body {
   }
   
   /* Styles pour le bouton */
-  #btn-ouvrir, #btn-ouvrir2 {
+  #btn-ouvrir, #btn-ouvrir2, #btn-ouvrir3, #btn-ouvrir4, #btn-ouvrir5, #btn-ouvrir6 {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -186,12 +187,12 @@ body {
     
   }
   
-  #btn-ouvrir:hover, #btn-ouvrir2:hover {
+  #btn-ouvrir:hover, #btn-ouvrir2:hover, #btn-ouvrir3:hover, #btn-ouvrir4:hover, #btn-ouvrir5:hover, #btn-ouvrir6:hover {
     background-color: #0069d9;
   }
   
   /* Styles pour le bouton Fermer */
-#btn-fermer, #btn-fermer2 {
+#btn-fermer, #btn-fermer2, #btn-fermer3, #btn-fermer4, #btn-fermer5, #btn-fermer6 {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -204,10 +205,10 @@ body {
     font-family: 'Exo', sans-serif;
   }
   
-  #btn-fermer:hover, #btn-fermer2:hover {
+  #btn-fermer:hover, #btn-fermer2:hover, #btn-fermer3:hover, #btn-fermer4:hover, #btn-fermer5:hover, #btn-fermer6:hover {
     background-color: #0069d9;
   }
 
-    .rond {
-      color: #0069d9;
+    .rond:hover {
+      color: #010e1b;
     }
